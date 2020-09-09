@@ -8,7 +8,7 @@ Using Javascript programming language, the dynamic site takes the users input an
 Difficulties I ran into was being new to Javascript, basically learning the language, while completing this task. There are a lot of methods to accomplishing the same task and it can get confusing applying one.
 
 ## Live Site Demo
-
+https://mnilou.github.io/password-template/ 
 
 ## Installation
 To install the project you will need internet connection and either a dektop, laptop or mobile device.
