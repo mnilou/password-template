@@ -11,7 +11,7 @@ Difficulties I ran into was being new to Javascript, basically learning the lang
 https://mnilou.github.io/password-template/ 
 
 ## Installation
-To install the project you will need internet connection and either a dektop, laptop or mobile device.
+To install the project you will need internet connection and either a desktop, laptop or mobile device.
 
 ## Usage
 Used to generate a secure and random password.

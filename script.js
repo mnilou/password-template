@@ -17,25 +17,7 @@ function askForOptions() {
     prompt("How long do you want your password to be?")
   );
   console.log(passLength);
-  if (passLength < 8 || passLength > 128) {
-    alert("Password must be greater than 8 and less than 128!");
-    return;
-  }
-  var isLower = confirm("Would you like lowercase?");
-  var isUpper = confirm("Would you like uppercase?");
-  var isNumber = confirm("Would you like numbers?");
-  var isSpecial = confirm("Would you like special characters?");
-
-  if (
-    isLower === false &&
-    isUpper === false &&
-    isNumber === false &&
-    isSpecial === false
-  ) {
-    alert("Must choose one character type");
-    return;
-  }
-
+  
   var passOptions = {
     passLength,
     isLower,
