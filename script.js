@@ -1,4 +1,4 @@
-// Assignment Code
+// Assignment Code using variables and arrays
 var lowerString = "abcdefghijklmnopqrstuvwxyz";
 var lowerArray = lowerString.split("");
 console.log(lowerArray);
@@ -10,7 +10,7 @@ console.log(numberArray);
 var specialString = "!@#$%^&*";
 var specialArray = specialString.split("");
 console.log(specialArray);
-
+//started the query for password generator using parseInt and conditional code 
 var generateBtn = document.querySelector("#generate");
 function askForOptions() {
   var passLength = parseInt(
