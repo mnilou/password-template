@@ -27,8 +27,9 @@ https://developer.mozilla.org/en-US/;
 I referenced these tutorials:
 https://www.youtube.com/watch?v=rlhhRVO5EOg;
 https://www.youtube.com/watch?v=zJO9g7S2_Xo;
+https://www.youtube.com/watch?v=Tio88WjwFO0;
 
-I also received a lot of help from my tutor, Corey Yates! Shout out!
+I also received a lot of help from my tutor, Corey Yates! 
 
 ## License
 
