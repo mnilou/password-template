@@ -10,12 +10,13 @@ console.log(numberArray);
 var specialString = "!@#$%^&*";
 var specialArray = specialString.split("");
 console.log(specialArray);
-//started the query for password generator using parseInt and conditional code 
+//started the query for password generator using parseInt and conditional code for length
 var generateBtn = document.querySelector("#generate");
 function askForOptions() {
   var passLength = parseInt(
     prompt("How long do you want your password to be?")
   );
+  //setting parameters for the password
   console.log(passLength);
   if (passLength < 8 || passLength > 128) {
     alert("Password must be greater than 8 and less than 128!");
@@ -25,7 +26,7 @@ function askForOptions() {
   var isUpper = confirm("Would you like uppercase?");
   var isNumber = confirm("Would you like numbers?");
   var isSpecial = confirm("Would you like special characters?");
-
+//password verifier code
   if (
     isLower === false &&
     isUpper === false &&
