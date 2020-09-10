@@ -36,7 +36,7 @@ function askForOptions() {
     alert("Must choose one character type");
     return;
   }
-
+//setting up the return password variables
   var passOptions = {
     passLength,
     isLower,
@@ -47,7 +47,7 @@ function askForOptions() {
 
   return passOptions;
 }
-
+//calculating the parameter responses using variables, array, function, conditional, concat, and looping
 function generatePassword() {
   var options = askForOptions();
   console.log(options);
